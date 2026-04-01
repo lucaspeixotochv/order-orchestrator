@@ -91,13 +91,6 @@ BULL_BOARD_USER=admin
 BULL_BOARD_PASS=admin_password
 ```
 
-Observações:
-
-- a aplicação consome apenas `DATABASE_URL` e `REDIS_URL`
-- o `docker-compose.yml` sobe Postgres e Redis com valores compatíveis com as URLs do exemplo
-- `FRANKFURTER_API_URL` deve apontar para uma API que retorne `rates.BRL`
-- se você já rodou versões antigas do schema local, pode ser necessário recriar o banco ao mudar relacionamentos entre `orders` e `customers`
-
 ## Banco de Dados e Migrations
 
 O projeto usa migrations do TypeORM. O schema não é sincronizado automaticamente em runtime.
