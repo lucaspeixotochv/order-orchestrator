@@ -62,7 +62,7 @@ Regras atuais do worker:
 
 Exemplo de monitoramento por meio dos logs de um job no qual foram realizadas três tentativas e, após isso, ele foi encaminhado para a DLQ.
 
-![alt text](image.png)
+![alt text](./assets/monitoring-logs-example.png)
 
 ## Status do Pedido
 
